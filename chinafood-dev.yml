@@ -8,7 +8,7 @@ china:
 
 spring:
   application:
-    name: chinafood
+    name: chinafoodaa
 
 eureka:
   client:
