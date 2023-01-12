@@ -1,5 +1,7 @@
 server:
   port: ${port:0}
+  servlet:
+    context-path: /chinafood
 
 china:
   jajangmyeon: 5000
@@ -10,6 +12,7 @@ spring:
 
 eureka:
   client:
+    enabled: ${eureka-client:true}
     fetch-registry: true
     register-with-eureka: true
     service-url:
