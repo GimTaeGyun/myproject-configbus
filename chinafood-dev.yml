@@ -11,3 +11,5 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:18761/eureka
+  instance:
+    hostname: localhost
