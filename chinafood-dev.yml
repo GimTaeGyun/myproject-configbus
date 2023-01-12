@@ -1,7 +1,7 @@
 server:
   port: ${port:0}
   servlet:
-    context-path: /chinafood1
+    context-path: /chinafoodto
 
 china:
   jajangmyeon: 5000
