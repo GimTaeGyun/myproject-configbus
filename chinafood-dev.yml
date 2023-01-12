@@ -1,2 +1,13 @@
 china:
   jajangmyeon: 5000
+
+spring:
+  application:
+    name: chinafood
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:18761/eureka
