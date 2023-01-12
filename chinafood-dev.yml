@@ -1,14 +1,14 @@
 server:
   port: ${port:0}
   servlet:
-    context-path: /chinafoodto
+    context-path: /chinafood
 
 china:
   jajangmyeon: 5000
 
 spring:
   application:
-    name: chinafoodaa
+    name: chinafoodAppName
 
 eureka:
   client:
